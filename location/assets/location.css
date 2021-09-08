@@ -1,0 +1,140 @@
+.commute-box {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+.commute-point {
+    position: absolute;
+    width: 12.5%;
+    height: 100%;
+    border: solid red 3px;
+    top: 0;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    justify-content: center;
+}
+.commute-dorm {
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    left: 0;
+}
+.commute-univ {
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    right: 0;
+}
+.commute-station {
+    height: 60%;
+    width: 10%;
+    left: 47.5%;
+}
+.commute-line {
+    background: red;
+    position: absolute;
+    height: 5px;
+    border-radius: 2.5px;
+}
+.commute-walk-line {
+    width: 30%;
+    top: 15%;
+    left: 15%;
+}
+.commute-bus-line {
+    width: 30%;
+    top: 37.5%;
+    left: 15%;
+}
+.commute-train-line {
+    width: 25%;
+    top: 27.5%;
+    left: 60%;
+}
+.commute-bike-line {
+    width: 70%;
+    left: 15%;
+    top: 77.5%;
+}
+.commute-descr {
+    position: absolute;
+    justify-content: center;
+    gap: 0rem;
+}
+.commute-bus-descr {
+    top: 0%;
+    left: 12.5%;
+    height: 15%;
+    width: 35%;
+}
+.commute-walk-descr {
+    top: 45%;
+    left: 12.5%;
+    height: 15%;
+    width: 35%;
+}
+.commute-train-descr {
+    top: 10%;
+    left: 57.5%;
+    width: 30%;
+    height: 15%;
+}
+.commute-bike-descr {
+    top: 82.5%;
+    height: 17.5%;
+    left: 15%;
+    width: 70%;
+}
+@media only screen and (min-width: 768px) {
+    .commute-box {
+        margin: 1rem auto;
+        width: 40rem;
+        height: 20rem;
+    }
+}
+.svg-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.stack-container {
+    padding: 0 2rem;
+}
+.contents-title-small {
+    color: hsl(25deg, 76%, 50%);
+    font-size: 1.1rem;
+    margin: .5rem 0;
+}
+.stack-box:first-of-type {
+    border-top: solid 1px hsl(25deg, 76%, 50%);
+}
+.stack-box {
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    border-bottom: solid 1px hsl(25deg, 90%, 40%);
+}
+@media only screen and (min-width: 768px) {
+    .stack-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        justify-content: space-evenly;
+    }
+    .stack-box {
+        border-top: solid 1px hsl(25deg, 90%, 40%);
+        max-width: 25rem;
+    }
+}
+.distance-box {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.image {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.icon-text > svg {
+    width: 1.2rem;
+}
+#person-box-l1 {
+    background: linear-gradient(70deg, hsl(200deg, 70%, 85%) 0%, hsl(260deg,80% ,90%));
+}

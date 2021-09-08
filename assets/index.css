@@ -1,24 +1,6 @@
-*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
 
-body {
-    /*font-family: "ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif;*/
-    font-family: sans-serif;/**/
-}
-.twitter-pc {/**/
-    display: none;
-}
 @media only screen and (min-width: 768px) {
-    .title {
-        font-size: 2rem;
-    }
-    .twitter-pc {/**/
-        display: block;
-        margin: 1em auto;
-        background-color: #ffffff;
-        border: solid 2px #239dda;
-        color: #239dda;
-        box-shadow: none;
-    }
+
     .header-image {/**/
         width: 60vw;
     }
@@ -26,10 +8,6 @@ body {
         width: 30em;
         top: 1em;
         left: 12vw;
-    }
-    .point-item-pc > a {
-        text-decoration: none;
-        color: black;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {

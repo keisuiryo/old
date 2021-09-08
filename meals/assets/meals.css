@@ -1,0 +1,107 @@
+.meals-section {
+    margin: 3rem 0;
+}
+.meals-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.meal-box {
+    position: relative;
+}
+.meal-expand-input {
+    display: none;
+}
+.meal-expand-img {
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    width: 2.2rem;
+}
+.meal-expand-input:checked ~ .meal-expand-img {
+    display: none;
+}
+.meal-close-img {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 2rem;
+}
+.meal-expand-input:not(:checked) ~ .meal-close-img {
+    display: none;
+}
+
+.meal-item-box {
+    margin: 1em 1em;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.meal-image {
+    width: 50vw;
+    transition: .1s ease-out;
+}
+.meal-expand-input:checked ~ .meal-image {
+    width: 100vw;
+    transition: .3s ease-in;
+}
+.meal-expand-input:not(:checked) ~ .meal-item-box {
+    display: none;
+    transition: .5s ease-in;
+}
+.meal-item-box {
+    margin: 1em 1em;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .annotation {
+        display: none;
+    }
+    .meals-container {
+        margin-right: 5rem;
+        gap: 3rem 5rem;
+        justify-items: space-between;
+    }
+    .meal-box {
+        width: 18rem;
+        background: hsl(25deg, 10%, 99%);
+        border-radius: 20px;
+    }
+    .meal-box::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(ellipse at 0% 50%,hsl(25deg,76%,85%) 40%, hsl(25deg,76%,75%) 100%);
+        z-index: -1;
+        transform: translate(1rem, 1rem);
+        border-radius: 20px;
+    }
+    .meal-image {
+        border-radius: 20px 20px 0 0;
+    }
+    .meal-expand-input:not(:checked) ~ .meal-item-box {
+        display: block;
+        transition: .5s ease-in;
+    }
+    .meal-expand-img {
+        display: none;
+    }
+    .meal-close-img {
+        display: none;
+    }
+}
+.person-box {
+    background: linear-gradient(200deg, hsl(100deg, 57%, 88%) 0px, hsl(125deg, 33%, 77%) 100%);
+    color: rgb(29, 29, 31);
+    border-radius: 20px;
+}
+@media only screen and (min-width: 768px) {
+    .meal-desc-text-box {
+        margin: 5rem 0;
+        text-align: center;
+    }
+}

@@ -3,67 +3,189 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../assets/main.css">
-    <link rel="stylesheet" href="./assets/about.css">
+    <link rel="stylesheet" href="/assets/kiwimaru.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/meals/assets/meals.css">
+    <link rel="icon" href="/assets/ymca-logo.png">
+    <title>食事 | 東北大学YMCA渓水寮</title>
 </head>
 
 <body class="subpage-container">
-    <nav class="pc-nav">
-        <div class="pc-nav-inner">
-            <a class="pc-nav-idt" href="../">
-                <img class="pc-nav-idt-logo" src="../assets/ymca-logo.png">
-                <h2 class="pc-nav-idt-text">渓水寮</h2>
-            </a>
-            <a class="pc-nav-link" href="../about/">渓水寮とは</a>
-            <a class="pc-nav-link-active" href="../meals/">食事</a>
-            <a class="pc-nav-link" href="../lives/">寮生活</a>
-            <a class="pc-nav-link" href="../messages/">寮生より</a>
-            <a class="pc-nav-link" href="../costs/">費用</a>
-            <a class="pc-nav-link" href="../events/">行事</a>
-            <a class="pc-nav-link" href="../ymca/">キリスト教</a>
-            <a class="pc-nav-link" href="../facility/">設備</a>
-            <a class="pc-nav-link" href="../location/">立地・アクセス</a>
-            <a class="pc-nav-link pc-link-twitter" href="https://twitter.com/keisuiryo">Twitter</a>
-            <a class="pc-nav-link-fab btn" href="../apply">募集要項<span class="btn-arrow">→</span></a>
-        </div>
-        <div></div>
-    </nav>
-    <div>
+    <div class="view-container">
         <header class="header-container">
             <div class="header-box">
                 <h1 class="title-box">
+                    <div class="title-up icon-text"><img class="title-logo" src="/assets/ymca-logo.png">東北大学YMCA渓水寮
+                    </div>
                     <div class="title">食事</div>
                 </h1>
-
-                <p class="header-descr-pc">まだ書けてないです、結局寮母さんどうなるんでしょ？
-                </p>
             </div>
-            <img class="header-image" src="../assets/group.jpg">
-            <p class="header-descr-mobile">まだ書けてないです、結局寮母さんどうなるんでしょ？</p>
-        </header>>
+            <img class="header-image" src="/meals/assets/meals.jpg">
+        </header>
         <main class="main-container">
+            <section class="section-box">
+                <div class="desc-plain">
+                    <p>東北大学YMCA渓水寮では授業日の朝と晩に食事があります。</p><p>朝ごはんは朝の7時過ぎから12時ごろまで、晩ごはんは夜の６時半から次の日までの好きな時間に食べれます。</p><p>時々寮母さん手作りのお菓子が振る舞われることもあります。</p>
+                <p>また、アレルギーや好き嫌いにも対応していて、量の調節も行えます。</p><p>ご飯を食べなかった時には食事代の返金があります。</p>
+                </div>
+                <div class="person-box">
+                    <img class="person-img" src="./assets/drkainuma.png">
+                    <div class="person-desc">
+                        <p class="person-name">上島明子</p>
+                        <p class="person-org">寮母</p>
+                    </div>
+                    <p class="message-long-text">　渓水寮では寮生活の楽しみの一つに食事があるのではと考えておりますので、十分な量を用意することと新メニューの開拓を目標に作っております。 現在
+                        13 名分を作っております。食事の量も内容も皆同じものを食べてもらっております。<br>
+                        　食事量には個人差がありますが、やや多いと感じる人は取り置きをしたり、ご飯は一合まで食べられますが、その量を調節したりしているようです。<br>
+                        　メニューはバラエティーに富んでいると思います。 定番メニューもありますが、新しい料理もできる限り取り入れております(皆さんの出身の郷土料理もぜひ教えて下さい)。<br>
+                        色々と変化のある内容のほうが楽しいと思いませんか？
 
+
+                    </p>
+                </div>
+            </section>
+            <section class="meals-section">
+                <h2 class="contents-title">夕食例</h2>
+                <div class="meals-container">
+                    <div class="meal-box">
+                        <label class="meal-label">
+                            <input class="meal-expand-input" type="checkbox" checked>
+                            <img class="meal-expand-img" src="./assets/expand.svg">
+                            <img class="meal-close-img" src="./assets/close.svg">
+                            <img src="./assets/meals.jpg" class="meal-image">
+                            <ul class="meal-item-box">
+                                <li class="meal-item">ご飯</li>
+                                <li class="meal-item">お味噌汁</li>
+                                <li class="meal-item">野菜炒め</li>
+                                <li class="meal-item">目玉焼き</li>
+                                <li class="meal-item">きゅうりの酢の物</li>
+                                <li class="meal-item">冷奴</li>
+                                <li class="meal-item">トマト</li>
+                            </ul>
+                        </label>
+                    </div>
+                    <p class="annotation icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height="48px"
+                            viewBox="0 0 20 20" width="48px" fill="#b4183c">
+                            <rect fill="none" height="20" width="20" />
+                            <path
+                                d="M4.5,14h6v1.5h-6V14z M13.5,8c0,2.09-1.07,3.93-2.69,5H4.19C2.57,11.93,1.5,10.09,1.5,8c0-3.31,2.69-6,6-6S13.5,4.69,13.5,8 z M12,8c0-2.48-2.02-4.5-4.5-4.5S3,5.52,3,8c0,1.37,0.62,2.65,1.67,3.5h5.65C11.38,10.65,12,9.37,12,8z M7.5,18 C8.33,18,9,17.33,9,16.5H6C6,17.33,6.67,18,7.5,18z M18.5,8l0.47-1.03L20,6.5l-1.03-0.47L18.5,5l-0.47,1.03L17,6.5l1.03,0.47L18.5,8 z M15.5,5l0.78-1.72L18,2.5l-1.72-0.78L15.5,0l-0.78,1.72L13,2.5l1.72,0.78L15.5,5z" />
+                        </svg>写真をタップしてメニューを見ます
+                    </p>
+                    <div class="meal-box">
+                        <label class="meal-label">
+                            <input class="meal-expand-input" type="checkbox">
+                            <img class="meal-expand-img" src="./assets/expand.svg">
+                            <img class="meal-close-img" src="./assets/close.svg">
+                            <img src="./assets/meals.jpg" class="meal-image">
+                            <ul class="meal-item-box">
+                                <li class="meal-item">ご飯</li>
+                                <li class="meal-item">お味噌汁</li>
+                                <li class="meal-item">野菜炒め</li>
+                                <li class="meal-item">目玉焼き</li>
+                                <li class="meal-item">きゅうりの酢の物</li>
+                                <li class="meal-item">冷奴</li>
+                                <li class="meal-item">トマト</li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="meal-box">
+                        <label class="meal-label">
+                            <input class="meal-expand-input" type="checkbox">
+                            <img class="meal-expand-img" src="./assets/expand.svg">
+                            <img class="meal-close-img" src="./assets/close.svg">
+                            <img src="./assets/meals.jpg" class="meal-image">
+                            <ul class="meal-item-box">
+                                <li class="meal-item">ご飯</li>
+                                <li class="meal-item">お味噌汁</li>
+                                <li class="meal-item">野菜炒め</li>
+                                <li class="meal-item">目玉焼き</li>
+                                <li class="meal-item">きゅうりの酢の物</li>
+                                <li class="meal-item">冷奴</li>
+                                <li class="meal-item">トマト</li>
+                            </ul>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <section class="meals-section">
+                <h2 class="contents-title">朝食例</h2>
+                <div class="meals-container">
+                    <div class="meal-box">
+                        <label class="meal-label">
+                            <input class="meal-expand-input" type="checkbox" checked>
+                            <img class="meal-expand-img" src="./assets/expand.svg">
+                            <img class="meal-close-img" src="./assets/close.svg">
+                            <img src="./assets/meals.jpg" class="meal-image">
+                            <ul class="meal-item-box">
+                                <li class="meal-item">ご飯</li>
+                                <li class="meal-item">お味噌汁</li>
+                                <li class="meal-item">野菜炒め</li>
+                                <li class="meal-item">目玉焼き</li>
+                                <li class="meal-item">きゅうりの酢の物</li>
+                                <li class="meal-item">冷奴</li>
+                                <li class="meal-item">トマト</li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="meal-box">
+                        <label class="meal-label">
+                            <input class="meal-expand-input" type="checkbox">
+                            <img class="meal-expand-img" src="./assets/expand.svg">
+                            <img class="meal-close-img" src="./assets/close.svg">
+                            <img src="./assets/meals.jpg" class="meal-image">
+                            <ul class="meal-item-box">
+                                <li class="meal-item">ご飯</li>
+                                <li class="meal-item">お味噌汁</li>
+                                <li class="meal-item">野菜炒め</li>
+                                <li class="meal-item">目玉焼き</li>
+                                <li class="meal-item">きゅうりの酢の物</li>
+                                <li class="meal-item">冷奴</li>
+                                <li class="meal-item">トマト</li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="meal-box">
+                        <label class="meal-label">
+                            <input class="meal-expand-input" type="checkbox">
+                            <img class="meal-expand-img" src="./assets/expand.svg">
+                            <img class="meal-close-img" src="./assets/close.svg">
+                            <img src="./assets/meals.jpg" class="meal-image">
+                            <ul class="meal-item-box">
+                                <li class="meal-item">ご飯</li>
+                                <li class="meal-item">お味噌汁</li>
+                                <li class="meal-item">野菜炒め</li>
+                                <li class="meal-item">目玉焼き</li>
+                                <li class="meal-item">きゅうりの酢の物</li>
+                                <li class="meal-item">冷奴</li>
+                                <li class="meal-item">トマト</li>
+                            </ul>
+                        </label>
+                    </div>
+                </div>
+            </section>
         </main>
-        <a href="#nav-mobile" class="dot-box"><img class="dot-image" src="../assets/menu.svg"></a>
+        <a href="#nav-container" class="dot-box"><img class="dot-image" src="../assets/menu.svg"></a>
     </div>
-    <div id="nav-mobile">
-        <a class="mobile-nav-link-fab btn">募集要項<span class="btn-arrow">→</span></a>
-        <nav class="mobile-nav">
-            <a class="mobile-nav-link" href="../meals">寮食</a>
-            <a class="mobile-nav-link" href="../lives">寮生活</a>
-            <a class="mobile-nav-link-active" href="../messages">寮生より</a>
-            <a class="mobile-nav-link" href="../events">行事</a>
-            <a class="mobile-nav-link" href="../costs">寮費</a>
-            <a class="mobile-nav-link" href="../ymca">キリスト教</a>
-            <a class="mobile-nav-link" href="../facility/">設備</a>
-            <a class="mobile-nav-link" href="../location/">立地</a>
-            <a class="mobile-nav-link" href="../policy/">理念・沿革</a>
-            <a class="mobile-nav-link">Twitter</a>
-            <a class="mobile-idt" href="../">
-                <img class="mobile-idt-logo" src="../assets/ymca-logo.png">
-                <h2 class="mobile-idt-text">渓水寮</h1>
+    <div id="nav-container">
+        <nav class="nav">
+            <a class="nav-idt icon-text" href="/">
+                <img class="idt-logo" src="/assets/ymca-logo.png">
+                <h2 class="idt-text">渓水寮</h1>
             </a>
+            <a class="nav-link" href="/about/">渓水寮とは</a>
+            <a class="nav-link-active" href="/meals/">食事</a>
+            <a class="nav-link" href="/lives/">寮生活</a>
+            <a class="nav-link" href="/messages/">寮生より</a>
+            <a class="nav-link" href="/events/">行事</a>
+            <a class="nav-link" href="/#costs">寮費</a>
+            <a class="nav-link" href="/ymca/">キリスト教</a>
+            <a class="nav-link" href="/facility/">設備</a>
+            <a class="nav-link" href="/location/">立地・アクセス</a>
+            <a class="nav-link">Twitter</a>
+            <a class="nav-link-fab btn">募集要項<span class="btn-arrow">→</span></a>
         </nav>
+        <div></div>
     </div>
 </body>
 

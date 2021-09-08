@@ -1,3 +1,3 @@
-.message-long-text {
-    max-width: 30em;
+.person-box {
+    background: linear-gradient(60deg, hsl(190deg, 55%, 80%) 0%, hsl(220deg,65% ,90%));
 }
