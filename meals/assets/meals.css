@@ -38,10 +38,11 @@
 
 .meal-image {
     width: 50vw;
+    height: auto;
     transition: .1s ease-out;
 }
 .meal-expand-input:checked ~ .meal-image {
-    width: 100vw;
+    width: 100%;
     transition: .3s ease-in;
 }
 .meal-expand-input:not(:checked) ~ .meal-item-box {
@@ -81,6 +82,7 @@
         border-radius: 20px;
     }
     .meal-image {
+        width: 100%;
         border-radius: 20px 20px 0 0;
     }
     .meal-expand-input:not(:checked) ~ .meal-item-box {

@@ -1,0 +1,51 @@
+.link {
+    
+    font-size: .8rem;
+}
+.files-box {
+    display: flex;
+column-gap: 3rem;
+row-gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+.file-link {
+    color: hsl(200deg,72%,50%);
+}
+.flaw-title {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    margin: .5rem 0;
+}
+.link-icon {
+    height: 2rem;
+}
+.flaw-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: hsl(25deg,22%,60%);
+    color: #eeeeeeee;
+}
+.flaw-text {
+    margin-bottom: 1.5rem;
+}
+.main-container {
+    margin: 1rem 3vw;
+}
+.flaw-box {
+    margin: 0 auto;
+    max-width: 45rem;
+}
+.contents-title {
+    margin-top: 4rem;
+}
+.desc-plain {
+    margin: 1rem auto;
+}

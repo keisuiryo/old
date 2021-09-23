@@ -1,0 +1,9 @@
+h3 {
+    margin: 1rem;
+    color: hsl(25deg, 76%, 60%);
+    font-size: 1.3rem;
+    text-align: left;
+}
+.main-container {
+    margin: 0 5vw;
+}
