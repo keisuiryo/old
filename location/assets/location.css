@@ -138,3 +138,12 @@
 #person-box-l1 {
     background: linear-gradient(70deg, hsl(200deg, 70%, 85%) 0%, hsl(260deg,80% ,90%));
 }
+#map-box {
+    margin: 1rem auto;
+    width: 80vw;
+    max-width: 40rem;
+}
+#map-box >iframe {
+    width: 100%;
+    border-radius: 20px;
+}

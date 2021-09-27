@@ -7,10 +7,11 @@ img {
     display: block;
 }
 body {
-    font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
-    letter-spacing: .15em !important;
-    font-size: 110%;
-    background: hsl(25deg, 100%, 94%);
+    font-family: 'M PLUS Rounded 1c',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    letter-spacing: .1em !important;
+    font-size: 100%;
+    background: hsl(25deg, 100%, 96%);
+    color: #222222cc;
 }
 .btn {
     padding: .6rem;
@@ -160,6 +161,8 @@ body {
     padding-inline-start: 0;
 }
 .point-item {
+    font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    letter-spacing: .15rem !important;
     margin-bottom: .5em;
 }
 .nowrap {
@@ -167,7 +170,7 @@ body {
 }
 .btn-fab {
     margin: 1em auto;
-    background: linear-gradient(to left, hsl(25deg, 76%, 70%) ,hsl(25deg, 76%,65%) 95% );
+    background: linear-gradient(to left, hsl(35deg, 76%, 70%) ,hsl(20deg, 76%,65%) 95% );
     /*background: linear-gradient(to left, hsl(200deg, 72%, 55%) ,hsl(200deg, 72%,50%) 95% );*/
     color: #ffffffee;
     display: block;
@@ -290,7 +293,7 @@ body {
 }
 .contents-desc {
     padding: 0 1rem;
-    text-indent: 1em;
+    /*text-indent: 1em;*/
     margin-bottom: .2em;
 }
 .link {
@@ -305,6 +308,7 @@ body {
     text-align: right;
     display: block;
     margin-right: 10%;
+    font-size: 120%;
 }
 /*
 .summary-more::after {
@@ -363,6 +367,8 @@ body {
     margin: 1rem;
 }
 .message-long-text {
+    font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    letter-spacing: .15rem !important;
     line-height: 2;
 }
 @media only screen and (min-width: 768px) {
@@ -380,9 +386,8 @@ body {
     width: 2rem;
 }
 .card-box {
-    background: hsl(25deg, 100%,97%);
-    padding: 2em 1rem;
-    margin: 2em 0;
+    background: hsl(25deg, 100%,99%);
+    padding: 1.5em 1rem;
 }
 .person-box {
     padding: 1rem 5%;
@@ -454,4 +459,14 @@ ul {
 }
 .card-link {
     margin: .3rem 1rem;
+}
+.twitter-box {
+    margin: 1rem auto;
+    width: 80vw;
+    max-width: 30rem;
+}
+.twitter-box > iframe {
+    margin: none;
+    border-radius: 20px;
+    max-height: 500px;
 }
