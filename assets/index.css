@@ -1,1 +1,17 @@
-
+.contents-title {
+    text-align: center;
+}
+.contents-desc {
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+}
+.summary-more {
+    font-size: 150%;
+    text-align: center;
+    margin: .5rem 0;
+}
+.map-frame {
+    margin: 1rem auto;
+    display: block;
+}

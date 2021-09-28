@@ -9,7 +9,7 @@ img {
 body {
     font-family: 'M PLUS Rounded 1c',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
     letter-spacing: .1em !important;
-    font-size: 100%;
+    font-size: 16px;
     background: hsl(25deg, 100%, 96%);
     color: #222222cc;
 }
@@ -35,7 +35,7 @@ body {
     padding-top: 1em;
 }
 .nav {
-    padding: .5em 2em;
+    padding: .5rem 1rem;
     background: linear-gradient(130deg, hsl(25deg, 95%, 70%) ,hsl(35deg, 80%,65%));
 }
 .nav-link, .nav-link-active, .nav-link-fab {
@@ -159,6 +159,7 @@ body {
     margin: 1em 1em;
     list-style-type: none;
     padding-inline-start: 0;
+    font-size: 1.2rem;
 }
 .point-item {
     font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
@@ -276,7 +277,7 @@ body {
 .image {
     border-radius: 10px;
     width: 85%;
-    margin: 0 auto;
+    margin: 1rem auto;
     height: auto;
 }
 .card-container {
@@ -287,8 +288,11 @@ body {
 }
 @media only screen and (min-width: 768px) {
     .card-box {
-        max-width: 33rem;
+        width: 30rem;
+        max-width: 100%;
         border-radius: 20px;
+    }
+    .card-container {
     }
 }
 .contents-desc {
@@ -305,7 +309,6 @@ body {
     color: hsl(200deg,92%,36%);
 }
 .summary-more {
-    text-align: right;
     display: block;
     margin-right: 10%;
     font-size: 120%;
@@ -469,4 +472,13 @@ ul {
     margin: none;
     border-radius: 20px;
     max-height: 500px;
+}
+.btn-twitter {
+    text-align: center;
+    border: solid 3px hsl(200deg, 72%, 60%);
+    background-color: hsl(25deg, 95%, 99%);
+    /*box-shadow: 3px 3px 15px 1px #99999966;*/
+    margin-top: .3rem;
+    color: #333333;
+    margin: .3rem auto;
 }

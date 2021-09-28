@@ -1,6 +1,41 @@
 .person-box {
     background: linear-gradient(60deg, hsl(190deg, 55%, 80%) 0%, hsl(220deg,65% ,90%));
+    margin: 0;
+    padding: 0;
+    background: none;
 }
 .person-img {
+    width: 3rem;
+    height: 3rem;
+    background: none;
     border-color: hsl(210deg, 90%, 70%);
+}
+.compact > .person-desc >.person-name {
+    font-size: 100%;
+    
+}
+.person-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    width: 90vw;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    row-gap: .3rem;
+}
+.person-org {
+    margin: 0;
+}
+.voice {
+    font-size: 150%;
+    display: block;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+.contents-title:first-of-type {
+    margin-top: 3rem;
 }
