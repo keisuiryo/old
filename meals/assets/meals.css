@@ -1,5 +1,6 @@
 .meals-section {
-    margin: 3rem 0;
+    margin: 3rem auto;
+    width: 90%;
 }
 .meals-container {
     display: flex;
@@ -60,9 +61,10 @@
         display: none;
     }
     .meals-container {
-        margin-right: 5rem;
+        margin: 3rem auto;
+        width: 90%;
         gap: 3rem 5rem;
-        justify-items: space-between;
+        justify-content: center;
     }
     .meal-box {
         width: 18rem;

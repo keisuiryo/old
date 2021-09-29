@@ -50,3 +50,7 @@
 .main-container {
     margin: 1rem 0;
 }
+.summary-more {
+    display: block;
+    text-align: right;
+}
