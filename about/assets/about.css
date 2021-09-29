@@ -17,8 +17,7 @@
 .person-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-    width: 90vw;
-    max-width: 40rem;
+    width: 90%;
     margin: 0 auto;
     margin-top: 0;
     justify-content: center;
@@ -38,4 +37,16 @@
 }
 .contents-title:first-of-type {
     margin-top: 3rem;
+}
+.card-box {
+    width: 100vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-box {
+        width: 30rem
+    }
+}
+.main-container {
+    margin: 1rem 0;
 }

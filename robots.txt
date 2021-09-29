@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://keisuiryo.jp/sitemap.xml
+Sitemap: http://www.keisuiryo.jp/sitemap.xml

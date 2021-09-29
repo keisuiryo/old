@@ -8,7 +8,7 @@
     position: absolute;
     width: 12.5%;
     height: 100%;
-    border: solid red 3px;
+    border: solid hsl(25deg, 76%, 50.0%) 3px;
     top: 0;
     border-radius: 10px;
     writing-mode: vertical-rl;
@@ -30,7 +30,7 @@
     left: 47.5%;
 }
 .commute-line {
-    background: red;
+    background: hsl(25deg, 76%, 50.0%);
     position: absolute;
     height: 5px;
     border-radius: 2.5px;
