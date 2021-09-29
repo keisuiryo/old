@@ -1,191 +1,191 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-	<loc>https://keisuiryo.pages.dev/</loc>
+	<loc>https://keisuiryo.jp/</loc>
 	<priority>1.0</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/assets/ymca-logo.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/assets/ymca-logo.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/assets/main.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/assets/main.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/meald1.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/meald1.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/main.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/main.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/room.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/room.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/apply/</loc>
+	<loc>https://keisuiryo.jp/apply/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/about/assets/main.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/about/assets/main.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/assets/menu.svg</image:loc>
+			<image:loc>https://keisuiryo.jp/assets/menu.svg</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/about/</loc>
+	<loc>https://keisuiryo.jp/about/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/about/assets/drkainuma.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/about/assets/drkainuma.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/about/assets/ymca.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/about/assets/ymca.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/about/assets/news.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/about/assets/news.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/meals/</loc>
+	<loc>https://keisuiryo.jp/meals/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/main.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/main.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/expand.svg</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/expand.svg</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/close.svg</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/close.svg</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/meals.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/meals.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/mealm1.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/mealm1.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/meals/assets/ryobo.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/meals/assets/ryobo.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/events/</loc>
+	<loc>https://keisuiryo.jp/events/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/bookclub.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/bookclub.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/location/assets/turuha.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/location/assets/turuha.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/nyuuryousiki.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/nyuuryousiki.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/hanami.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/hanami.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/kendou.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/kendou.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/ymca/assets/kakizemi1.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/ymca/assets/kakizemi1.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/ns.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/ns.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/imoni.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/imoni.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/xmas.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/xmas.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/huyuzemi.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/huyuzemi.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/events/assets/soturyou.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/events/assets/soturyou.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/facility/</loc>
+	<loc>https://keisuiryo.jp/facility/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/main.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/main.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/hall.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/hall.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/kitchen.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/kitchen.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/toilet.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/toilet.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/bath.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/bath.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/facility/assets/guest.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/facility/assets/guest.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/location/</loc>
+	<loc>https://keisuiryo.jp/location/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/location/assets/lawson.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/location/assets/lawson.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/location/assets/post.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/location/assets/post.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/location/assets/hospital.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/location/assets/hospital.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/location/assets/york.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/location/assets/york.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/location/assets/coop.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/location/assets/coop.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/messages/</loc>
+	<loc>https://keisuiryo.jp/messages/</loc>
 	<priority>0.8</priority>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/messages/assets/main.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/messages/assets/main.webp</image:loc>
 	</image:image>
 	<image:image>
-			<image:loc>https://keisuiryo.pages.dev/messages/face.webp</image:loc>
+			<image:loc>https://keisuiryo.jp/messages/face.webp</image:loc>
 	</image:image>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E5%BF%9C%E5%8B%9F%E7%94%A8%E7%B4%99.pdf</loc>
+	<loc>https://keisuiryo.jp/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E5%BF%9C%E5%8B%9F%E7%94%A8%E7%B4%99.pdf</loc>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E5%BF%9C%E5%8B%9F%E7%94%A8%E7%B4%99.docx</loc>
+	<loc>https://keisuiryo.jp/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E5%BF%9C%E5%8B%9F%E7%94%A8%E7%B4%99.docx</loc>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E8%B3%AA%E5%95%8F%E3%82%B7%E3%83%BC%E3%83%88.pdf</loc>
+	<loc>https://keisuiryo.jp/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E8%B3%AA%E5%95%8F%E3%82%B7%E3%83%BC%E3%83%88.pdf</loc>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E8%B3%AA%E5%95%8F%E3%82%B7%E3%83%BC%E3%83%88.docx</loc>
+	<loc>https://keisuiryo.jp/apply/assets/%E6%B8%93%E6%B0%B4%E5%AF%AE%E8%B3%AA%E5%95%8F%E3%82%B7%E3%83%BC%E3%83%88.docx</loc>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/living/meal/</loc>
+	<loc>https://keisuiryo.jp/living/meal/</loc>
 	<priority>0.7</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/living/expense/</loc>
+	<loc>https://keisuiryo.jp/living/expense/</loc>
 	<priority>0.7</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/living/commute/</loc>
+	<loc>https://keisuiryo.jp/living/commute/</loc>
 	<priority>0.7</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/danjyo/</loc>
+	<loc>https://keisuiryo.jp/danjyo/</loc>
 	<priority>0.7</priority>
 </url>
 <url>
-	<loc>https://keisuiryo.pages.dev/directors/</loc>
+	<loc>https://keisuiryo.jp/directors/</loc>
 	<priority>0.7</priority>
 </url>
 </urlset>
