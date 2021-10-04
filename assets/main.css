@@ -159,7 +159,6 @@ body {
     margin: 1em 1em;
     list-style-type: none;
     padding-inline-start: 0;
-    font-size: 1.2rem;
 }
 .point-item {
     font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
@@ -284,15 +283,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 @media only screen and (min-width: 768px) {
     .card-box {
         width: 30rem;
         max-width: 100%;
         border-radius: 20px;
-    }
-    .card-container {
     }
 }
 .contents-desc {
@@ -369,13 +366,14 @@ body {
 .article-box {
     margin: 1rem;
 }
-.message-long-text {
+.message-text {
     font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
     letter-spacing: .15rem !important;
     line-height: 2;
+    color: #333333cc;
 }
 @media only screen and (min-width: 768px) {
-    .message-long-text {
+    .message-text {
         font-size: 1.1em;
     }
 }
@@ -390,7 +388,7 @@ body {
 }
 .card-box {
     background: hsl(25deg, 100%,99%);
-    padding: 1.5em 1rem;
+    padding: .5em 1rem;
 }
 .person-box {
     padding: 1rem 5%;

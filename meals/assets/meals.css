@@ -16,6 +16,13 @@
     bottom: .5rem;
     right: .5rem;
     width: 2.2rem;
+    height: 2.2rem;
+    fill: hsl(25deg,76%,40%);
+    border-radius: 50%;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background:  hsla(25deg, 90%, 95%,50%);
+    padding: 5px;
 }
 .meal-expand-input:checked ~ .meal-expand-img {
     display: none;
@@ -25,6 +32,8 @@
     bottom: 2rem;
     right: 2rem;
     width: 2rem;
+    height: 2rem;
+    fill: hsl(25deg,76%,40%);
 }
 .meal-expand-input:not(:checked) ~ .meal-close-img {
     display: none;
