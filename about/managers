@@ -1,6 +1,6 @@
 <article class="article-box">
     <div class="person-box">
-        <img width="400" height="300" class="person-img" src="/about/assets/drkainuma.webp">
+        <img loading="lazy" width="400" height="300" class="person-img" src="/about/assets/drkainuma.webp">
         <div class="person-desc">
             <p class="person-name">貝沼亮介</p>
             <p class="person-org">東北大学大学院教授</p>
