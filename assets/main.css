@@ -6,15 +6,15 @@
     font-display: swap;
     src: local(''),
          url('/assets/m-plus-rounded.woff2') format('woff2')
-  }
-  @font-face {
+}
+@font-face {
     font-family: 'Kiwi Maru';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: local(''),
-         url('/assets/kiwi-maru.woff2') format('woff2'),
-  }
+         url('/assets/kiwi-maru.woff2') format('woff2')
+}
 html {
     scroll-behavior: smooth;
 }
