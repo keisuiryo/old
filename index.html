@@ -101,9 +101,12 @@
         ]
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-VC4C2W5VRY"></script>
-    <script defer src="/assets/ga.js">
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC4C2W5VRY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-VC4C2W5VRY');
     </script>
 </head>
 
@@ -163,7 +166,7 @@
                 <ul class="point-box">
                     <li class="icon-text point-item"><svg class="check-svg">
                             <use xlink:href="#svg-check" />
-                        </svg><span><span class="nowrap">朝晩提供される</span><span class="nowrap">寮母さん手作りの食事</span></span>
+                        </svg><span><span class="nowrap">朝晩寮母さん手作りの</span><span class="nowrap">食事付きの寮</span></span>
                     </li>
                     <li class="icon-text point-item"><svg class="check-svg">
                             <use xlink:href="#svg-check" />
@@ -172,7 +175,7 @@
                     <li class="icon-text point-item"><svg class="check-svg">
                             <use xlink:href="#svg-check" />
                         </svg><span><span class="nowrap">光熱水費・食事・ネット代</span><span
-                                class="nowrap">込みで寮費は月4万7千円</span></span>
+                                class="nowrap">込みで寮費が月4万7千円の寮</span></span>
                     </li>
                 </ul>
             </div>
@@ -224,7 +227,7 @@
                 </div>
                 <div class="card-box">
                     <a class="link summary-more" href="/location/">通学・周辺施設→</a>
-                    <!--<h2 class="contents-title">立地</h2>-->
+                    <!--<h2 class="contents-title">通学・周辺施設</h2>-->
                     <!--<iframe class="map-frame" title="東北大学YMCA渓水寮周辺の地理です。" width="280" height="210"style="border:0" loading="lazy" allowfullscreen
     src="https://www.google.com/maps/embed/v1/place?q=%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6YMCA&key=AIzaSyA8C83iekU00w03u-J8Y-E52oCcyD-10jU"></iframe>-->
                     </a><a href="/location/"><img loading="lazy" width="500" height="430" class="image"
@@ -273,7 +276,6 @@
                 <div class="card-box">
                     <h2 class="contents-title">東北大学YMCA渓水寮の概要</h2>
                     <ul>
-                        <li>寮のサービス：授業日の食事</li>
                         <li>寮の定員：１３名</li>
                         <li>寮費：月４万７千円</li>
                         <li>入寮費：３万円（うち敷金２万円、卒寮時払い戻し）</li>
@@ -285,7 +287,7 @@
                 </div>
                 <div class="card-box">
                     <h2 class="contents-title">お問合せ</h2>
-                    <p class="contents-desc">見学のお願いや質問などありましたらお気軽にご連絡ください。</p>
+                    <p class="contents-desc">見学希望や質問などありましたらお気軽にご連絡ください。</p>
                     <!--<p class="contents-desc">東北工業大学・宮城教育大学など東北大学以外の学生や編入学・中途入寮も募集しています。</p>-->
                     <a href="/apply/" class="btn btn-fab">お問合せ →</a>
 
@@ -294,7 +296,9 @@
                     <h2 class="contents-title">東北大学との関係</h2>
                     <p class="contents-desc">渓水寮は東北大学の一部の教員やOPの支援を受けていますが、東北大学からは独立した自治寮です。</p>
                     <p class="contents-desc">東北大学の運営する寮は、東北大学の公式サイトよりご覧ください。</p>
-                    <a class="link" href="https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/05/studentlife0502/">学寮(東北大学公式サイト) →</a>
+                    <a class="link"
+                        href="https://www.tohoku.ac.jp/japanese/studentinfo/studentlife/05/studentlife0502/">学寮(東北大学公式サイト)
+                        →</a>
                 </div>
 
             </div>
@@ -357,10 +361,10 @@
             <a class="nav-link" href="/events/">行事</a>
 
             <a class="nav-link" href="/facility/">設備</a>
-            <a class="nav-link" href="/location/">立地</a>
+            <a class="nav-link" href="/location/">通学・周辺施設</a>
             <a class="nav-link" href="/messages/">寮生の声</a>
             <a class="nav-link" href="/faq/">よくある質問</a>
-<a class="nav-link-fab btn" href="/apply/">お問合せ →</a>
+            <a class="nav-link-fab btn" href="/apply/">入寮方法→</a>
             <a class="nav-link btn btn-twitter" href="https://twitter.com/keisuiryo">Twitter</a>
         </nav>
         <div></div>
