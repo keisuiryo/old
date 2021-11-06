@@ -1,0 +1,15 @@
+h3 {
+    font-size: 1.4em;
+    margin-top: 2rem;
+    margin-bottom: .4rem;
+    font-weight: bold;
+}
+p {
+    color: #000000aa;
+}
+.main-container {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 40rem;
+
+}

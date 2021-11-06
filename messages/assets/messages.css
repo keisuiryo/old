@@ -23,7 +23,7 @@
     background: linear-gradient(70deg, hsl(40deg, 70%, 85%) 0%, hsl(100deg,80% ,90%));
 }
 #person-box-3 {
-    background: linear-gradient(70deg, hsl(340deg, 70%, 85%) 0%, hsl(40deg,80% ,70%));
+    background: linear-gradient(70deg, hsl(340deg, 70%, 85%) 0%, hsl(20deg,80% ,85%));
 }
 #person-box-4 {
     background: linear-gradient(70deg, hsl(140deg, 70%, 85%) 0%, hsl(200deg,80% ,90%));
