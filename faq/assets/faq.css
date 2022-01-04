@@ -1,11 +1,12 @@
 h3 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-top: 2rem;
     margin-bottom: .4rem;
     font-weight: bold;
+    color: #000000ee;
 }
 p {
-    color: #000000aa;
+    color: #00000099;
 }
 .main-container {
     margin: 0 auto;
