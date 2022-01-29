@@ -1,20 +1,12 @@
 *,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}x,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
-@font-face {
-    font-family: 'M PLUS Rounded 1c';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local(''),
-         url('/assets/m-plus-rounded.woff2') format('woff2')
-}
-@font-face {
+/*@font-face {
     font-family: 'Kiwi Maru';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: local(''),
          url('/assets/kiwi-maru.woff2') format('woff2')
-}
+}*/
 html {
     scroll-behavior: smooth;
 }
@@ -22,11 +14,14 @@ img {
     display: block;
 }
 body {
-    font-family: 'M PLUS Rounded 1c',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    font-family: "游ゴシック体", YuGothic,"游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
     letter-spacing: .1em !important;
     font-size: 16px;
     background: hsl(25deg, 100%, 96%);
     color: #222222cc;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
 }
 .btn {
     padding: .6rem;
@@ -59,6 +54,7 @@ body {
     font-size: 140%;
     color: #ffffffee;
     text-decoration: none;
+    margin-left: 2.8rem;
 }
 .nav-link-fab {
     background: linear-gradient(to left, hsl(25deg, 76%, 70%) ,hsl(25deg, 76%,65%) 95% );
@@ -68,15 +64,13 @@ body {
 }
 .nav-idt {
     text-decoration: none;
+    gap: 0.3rem;
 }
 .idt-logo {
-    width: auto;
-    height: 3em;
-    padding: .4em;
+    width: 2.5rem;
 }
 .idt-text {
     font-size: 2em;
-    font-weight: 600;
     color: #ffffffee;
 }
 .person-box {
@@ -104,14 +98,18 @@ body {
 }
 @media only screen and (min-width: 1150px) {
     .subpage-container {
-        display: flex;
-        flex-direction: row-reverse;
+        display: grid;
+        gap: 0;
+        grid-template-columns: 1fr 4.23fr;
     }
     #nav-container {
         display: block;
+        grid-column: 1;
+        grid-row: 1;
     }
     .nav-link, .nav-link-active {
         margin: 0;
+        margin-left: 1.8rem;
         padding: .5rem 1rem;
         text-decoration: none;
         color: #333333;
@@ -122,7 +120,6 @@ body {
         background:  hsla(200deg, 72%, 90%,70%);
         color: hsl(200deg, 90%,40%);
         text-decoration: none;
-        font-weight: 600;
     }
     .nav-link:hover {
         background:  hsl(200deg, 72%, 90%);
@@ -143,7 +140,7 @@ body {
         color: #ffffffee;
     }
     .view-container {
-        flex: auto;
+        grid-column: 2;
     }
 }
 * {
@@ -170,14 +167,18 @@ body {
 .header-descr {
     margin: 1em;
 }
+.header-box {
+    display: flex;
+    justify-content: center;
+}
 .point-box {
     margin: 1em 1em;
     list-style-type: none;
     padding-inline-start: 0;
 }
 .point-item {
-    font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
-    letter-spacing: .15rem !important;
+    /*font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    letter-spacing: .15rem !important;*/
     margin-bottom: .5em;
 }
 .nowrap {
@@ -202,7 +203,7 @@ body {
     backdrop-filter: blur(7px);
 }
 .title-up {
-    margin-left: 1em;
+    margin-left: 1rem;
     font-size: 1rem;
 }
 .title-logo {
@@ -213,7 +214,7 @@ body {
 .title{
     margin-bottom: .1em;
     font-size: 2rem;
-    text-align: center;
+    margin-left: 3rem;
 }
 
 .check-svg{
@@ -234,6 +235,7 @@ body {
     .title {
         margin-bottom: 0;
         font-size: 1.5em;
+        margin-left: 3.5rem;
     }
     .title-up {
         font-size: 1.2rem;
@@ -278,7 +280,6 @@ body {
     padding-left: 1rem;
     padding-bottom: .2rem;
     color: hsl(25deg, 76%, 35%);
-    font-weight:bolder;
     font-size: 1.8rem;
     margin: .5rem 0;
 }
@@ -287,6 +288,7 @@ body {
     padding-bottom: .2rem;
     color: hsl(25deg, 76%, 35%);
     font-size: 1.4rem;
+    font-weight: normal;
 }
 .image {
     border-radius: 10px;
@@ -382,8 +384,8 @@ body {
     margin: 1rem;
 }
 .message-text {
-    font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
-    letter-spacing: .15rem !important;
+    /*font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    letter-spacing: .15rem !important;*/
     line-height: 2;
     color: #333333cc;
 }
@@ -452,7 +454,6 @@ body {
 }
 .contents-title-tiny {
     font-size: 1rem;
-    font-weight: 600;
     margin: .4rem;
     margin-top: 1.2rem;
 }

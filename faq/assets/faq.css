@@ -2,8 +2,11 @@ h3 {
     font-size: 1.6em;
     margin-top: 2rem;
     margin-bottom: .4rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #000000ee;
+}
+h4 {
+    font-weight: normal;
 }
 p {
     color: #00000099;

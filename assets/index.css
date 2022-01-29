@@ -20,8 +20,8 @@
     display: block;
 }
 #person-box-1 {
-    background: linear-gradient(to left ,hsl(320deg,95%,88%), hsl(350deg,99%,86%))
+    background: linear-gradient(to left ,hsl(320deg,95%,88%), hsl(350deg,99%,86%));
 }
 #person-box-2 {
-    background: linear-gradient(to left ,hsl(200deg,85%,90%), hsl(230deg,85%,95%))
+    background: linear-gradient(to left ,hsl(200deg,85%,90%), hsl(230deg,85%,95%));
 }

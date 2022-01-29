@@ -67,8 +67,9 @@
     margin-bottom: .5rem;
 }
 .quote-text {
-    font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
-    letter-spacing: .15rem !important;
+    /*font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
+    letter-spacing: .15rem !important;*/
+    
     margin-bottom: .5em;
     color: #333333cc;
 }
