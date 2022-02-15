@@ -7,6 +7,9 @@
     src: local(''),
          url('/assets/kiwi-maru.woff2') format('woff2')
 }*/
+* {
+    font-feature-settings: "palt";
+}
 html {
     scroll-behavior: smooth;
 }
@@ -90,11 +93,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .person-name {
     font-size: 120%;
-    margin: .4em 0;
+    margin: .4em 0 .1em 0;
 }
 .person-org {
     font-size:90%;
-    margin: .1em .1em .1em 1em;
 }
 @media only screen and (min-width: 1150px) {
     .subpage-container {
@@ -342,7 +344,7 @@ h1,h2,h3,h4,h5,h6 {
 @media only screen and (min-width: 768px) {
     .contents-title {
         margin: 1rem 0;
-        padding-left: 0;
+        /*padding-left: 0;*/
     }
     .right {
         flex-direction: row-reverse;
@@ -351,7 +353,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer-box {
     padding: 3em 5vw;
-    background: linear-gradient(130deg, hsl(25deg, 95%, 70%) ,hsl(35deg, 80%,65%));
+    background: linear-gradient(135deg, #FA9938 0%, #FA9F32 23.18%, #FAA42B 46.35%, #FAA923 69.53%, #F9AF18 92.71%, #F9B406 115.88%);
     margin: 0;
     margin-top: 3rem; 
     color: #ffffffee;
@@ -386,12 +388,13 @@ h1,h2,h3,h4,h5,h6 {
 .message-text {
     /*font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
     letter-spacing: .15rem !important;*/
+    text-align: justify;
     line-height: 2;
     color: #333333cc;
 }
 @media only screen and (min-width: 768px) {
     .message-text {
-        font-size: 1.1em;
+        /*font-size: 1.1em;*/
     }
 }
 .svg-symbols-box {
