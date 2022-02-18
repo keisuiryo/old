@@ -16,9 +16,13 @@ row-gap: 1rem;
 .flaw-title {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     font-size: 1.3rem;
     margin: .5rem 0;
+    margin-top: 3rem;
+}
+.flaw-title:first-child {
+    margin-top: .5rem;
 }
 .link-icon {
     height: 2rem;
@@ -27,17 +31,19 @@ row-gap: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
     background: hsl(25deg,22%,60%);
     color: #eeeeeeee;
 }
 .flaw-text {
-    margin-bottom: 1.5rem;
+    text-align: justify;
 }
 .main-container {
-    margin: 1rem 3vw;
+    margin: 1rem auto;
+    max-width: 40rem;
+    padding: 0 1.5rem;
 }
 .flaw-box {
     margin: 0 auto;
@@ -48,4 +54,32 @@ row-gap: 1rem;
 }
 .desc-plain {
     margin: 1rem auto;
+}
+.important {
+   border-radius: 10px;
+   border: solid 5px rgb(247, 141, 65); 
+   padding: .5rem 1rem;
+   text-align: justify;
+}
+.important > h3 > span {
+    border-radius: 50%;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    color: #ffffff;
+    background: rgb(247, 141, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.important > h3 {
+    display: flex;
+    gap: 1rem;
+    color: rgb(247, 141, 65);
+    align-items: center;
+    margin-bottom: .2rem;
+}
+.contents-desc {
+    text-align: justify;
 }

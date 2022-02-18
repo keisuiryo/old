@@ -1,4 +1,4 @@
-*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}x,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.4}a:not([class]){text-decoration-skip-ink:auto}x,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
 /*@font-face {
     font-family: 'Kiwi Maru';
     font-style: normal;
@@ -18,10 +18,10 @@ img {
 }
 body {
     font-family: "游ゴシック体", YuGothic,"游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
-    letter-spacing: .1em !important;
+    letter-spacing: .05rem !important;
     font-size: 16px;
-    background: hsl(25deg, 100%, 96%);
-    color: #222222cc;
+    background: hsl(25deg, 100%, 99%);
+    color: #111111ee;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .nav {
     padding: .5rem 1rem;
-    background: linear-gradient(130deg, hsl(25deg, 95%, 70%) ,hsl(35deg, 80%,65%));
+    background: linear-gradient(135deg, #FA9938 0%, #FA9F32 23.18%, #FAA42B 46.35%, #FAA923 69.53%, #F9AF18 92.71%, #F9B406 115.88%);
 }
 .nav-link, .nav-link-active, .nav-link-fab {
     display: block;
@@ -150,17 +150,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 .dot-box {
     position: fixed;
-    padding: .5em;
+    /*padding: .5em;*/
     border-radius: 50%;
     top: 1em;
     right: 1em;
-    background: hsla(25deg,76%,60%,95%);
-    box-shadow: 2px 2px 7px #999999aa;
+    /*background: hsla(25deg,76%,60%,95%);
+    box-shadow: 2px 2px 7px #999999aa;*/
     display: flex;
 }
 .dot-image {
-    width: 2.5em;
-    height: 2.5em;
+    width: 3em;
+    height: 3em;
+    fill:hsla(25deg,76%,60%,95%);
 }
 .header-image {
     width: 100vw;
@@ -174,7 +175,7 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
 }
 .point-box {
-    margin: 1em 1em;
+    margin: 1em 1.5em;
     list-style-type: none;
     padding-inline-start: 0;
 }
@@ -188,9 +189,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .btn-fab {
     margin: 1em auto;
-    background: linear-gradient(to left, hsl(35deg, 76%, 70%) ,hsl(20deg, 76%,65%) 95% );
+    background: linear-gradient(to left, hsl(35deg, 86%, 55%) ,hsl(20deg, 76%,50%) 95% );
     /*background: linear-gradient(to left, hsl(200deg, 72%, 55%) ,hsl(200deg, 72%,50%) 95% );*/
-    color: #ffffffee;
+    color: #ffffff;
     display: block;
 }
 .mobile {
@@ -200,7 +201,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 100vw;
     padding: .2em 1rem;
     background: linear-gradient(to bottom,#ffffff55,#ffffff44 60%, #ffffff11 100% );
-    color: #000000aa;
+    color: #000000ee;
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
 }
@@ -221,6 +222,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .check-svg{
     fill: hsl(25deg, 76%, 60%);
+    /*fill: #ffffff;*/
     width: 2em;
     height: 2em;
 }
@@ -234,6 +236,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @media only screen and (min-width: 768px) {
+    body { 
+        background: hsl(25deg, 100%, 96%);
+    }
     .title {
         margin-bottom: 0;
         font-size: 1.5em;
@@ -272,14 +277,21 @@ h1,h2,h3,h4,h5,h6 {
     }
     
     .abstract {
-        margin: 2rem 5rem;
+        padding: 2rem 5rem;
     }
+}
+.abstract {
+    /*background-color: hsl(25deg,60%,30%);
+    color: #ffffff;
+    padding: .5rem 0;
+    font-size: 1.1rem;*/
+    text-align: justify;
 }
 .about-text {
     margin: 1rem;
 }
 .contents-title {
-    padding-left: 1rem;
+    /*padding-left: 1rem;*/
     padding-bottom: .2rem;
     color: hsl(25deg, 76%, 35%);
     font-size: 1.8rem;
@@ -312,9 +324,10 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 .contents-desc {
-    padding: 0 1rem;
+    /*padding: 0 1rem;*/
     /*text-indent: 1em;*/
-    margin-bottom: .2em;
+    /*margin-bottom: .2em;*/
+    text-align: justify;
 }
 .link {
     color: hsl(200deg,92%,36%);
@@ -326,7 +339,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 .summary-more {
     display: block;
-    margin-right: 10%;
     font-size: 120%;
 }
 /*
@@ -389,8 +401,8 @@ h1,h2,h3,h4,h5,h6 {
     /*font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
     letter-spacing: .15rem !important;*/
     text-align: justify;
-    line-height: 2;
-    color: #333333cc;
+    line-height: 1.8;
+    color: #000000ee;
 }
 @media only screen and (min-width: 768px) {
     .message-text {
@@ -408,7 +420,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .card-box {
     background: hsl(25deg, 100%,99%);
-    padding: .5em 1rem;
+    padding: .5em 1.5rem;
 }
 .person-box {
     padding: 1rem 5%;
@@ -462,6 +474,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 ul {
     margin-block-start: 0;
+    padding-inline-start: 1rem;
 }
 .desc-plain {
     max-width: 45rem;
@@ -499,3 +512,35 @@ ul {
     color: #333333;
     margin: .3rem auto;
 }
+.important {
+    border-radius: 10px;
+    border: solid 5px rgb(247, 141, 65); 
+    padding: .5rem 1rem;
+    text-align: justify;
+    max-width: 90vw;
+    width: 35rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+ }
+ .important > h3 > span {
+     border-radius: 50%;
+     width: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 2rem;
+     color: #ffffff;
+     background: rgb(247, 141, 65);
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+ }
+ .important > h3 {
+     display: flex;
+     gap: 1rem;
+     color: rgb(247, 141, 65);
+     align-items: center;
+     margin-bottom: .2rem;
+ }
+ .contents-desc {
+     text-align: justify;
+ }

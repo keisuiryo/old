@@ -1,16 +1,15 @@
 .contents-title {
-    text-align: center;
+    /*text-align: center;*/
+    font-size:1.6rem;
+    margin-bottom: 0;
 }
 .contents-desc {
-    padding: 0;
     text-indent: 0;
-    text-align: center;
 }
 .summary-more {
-    font-size: 150%;
+    font-size: 120%;
     text-align: center;
-    margin: .5rem 0;
-    margin-top: 0;
+    padding: .5rem 0 2rem 0;
 }
 .map-frame {
     margin: 1rem auto;
@@ -24,4 +23,11 @@
 }
 #person-box-2 {
     background: linear-gradient(to left ,hsl(200deg,85%,90%), hsl(230deg,85%,95%));
+}
+.contents-link {
+    display: block;
+}
+.contents-question {
+    margin: .2rem 0 .1rem 0;
+    font-size: 1.2rem;
 }

@@ -1,3 +1,6 @@
 #person-box-f1 {
     background: hsl(200deg,80%,80%);
 }
+.person-box {
+    padding: 0 1rem;
+}
