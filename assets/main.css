@@ -20,7 +20,7 @@ body {
     font-family: "游ゴシック体", YuGothic,"游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
     letter-spacing: .05rem !important;
     font-size: 16px;
-    background: hsl(25deg, 100%, 99%);
+    background: hsl(25deg, 100%, 100%);
     color: #111111ee;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -420,7 +420,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .card-box {
     background: hsl(25deg, 100%,99%);
-    padding: .5em 1.5rem;
+    padding: 1em 1.5rem;
 }
 .person-box {
     padding: 1rem 5%;
@@ -540,6 +540,9 @@ ul {
      color: rgb(247, 141, 65);
      align-items: center;
      margin-bottom: .2rem;
+ }
+ .important >  p > span {
+     background: linear-gradient(transparent 60%, hsl(25deg,100%,70%) 60%);
  }
  .contents-desc {
      text-align: justify;
