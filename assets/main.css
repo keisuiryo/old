@@ -557,3 +557,6 @@ ul {
  .colored{
     color: rgb(241, 103, 4)
  }
+ .link-box {
+     margin: .4rem 0;
+ }
