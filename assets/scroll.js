@@ -1,3 +1,8 @@
+// disable image right click(for privacy reasons)
+for(let i of document.getElementsByTagName('img')) {
+  i.oncontextmenu = () => false
+}
+
 //this is a copy of https://github.com/iamdustan/smoothscroll library that licensed under MIT LICENSE.
 'use strict';
 
