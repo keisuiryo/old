@@ -9,6 +9,7 @@
 }*/
 * {
     font-feature-settings: "palt";
+    scroll-behavior: smooth;
 }
 html {
     scroll-behavior: smooth;
@@ -17,7 +18,7 @@ img {
     display: block;
 }
 body {
-    font-family: "游ゴシック体", YuGothic,"游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
+    font-family:  Arial,Helvetica,"游ゴシック体", YuGothic,"游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
     letter-spacing: .05rem !important;
     font-size: 16px;
     background: hsl(25deg, 100%, 100%);
@@ -116,16 +117,17 @@ h1,h2,h3,h4,h5,h6 {
         text-decoration: none;
         color: #333333;
         border-radius: 1.2em;
-        transition: background ease-out .5s;
+        transition: background ease-in .4s,color ease-in .4s;
     }
     .nav-link-active  {
-        background:  hsla(200deg, 72%, 90%,70%);
-        color: hsl(200deg, 90%,40%);
+        background:  linear-gradient(90deg,hsl(25deg, 95%, 75%),hsl(28deg,88%,77%));
+        color: hsl(25deg, 80%,20%);
         text-decoration: none;
     }
     .nav-link:hover {
-        background:  hsl(200deg, 72%, 90%);
-        transition: background ease-in .3s;
+        background:  hsl(25deg, 72%, 80%);
+        transition: background ease-out .4s,color ease-in .4s;
+        color:hsl(25deg,80%,20%);
     }
     .nav {
         background: none;
@@ -137,8 +139,8 @@ h1,h2,h3,h4,h5,h6 {
     }
     .nav-link-fab {
         margin: 1em auto;
-        background: linear-gradient(to left, hsl(25deg, 76%, 70%) ,hsl(25deg, 76%,65%) 95% );
-        background: linear-gradient(to left, hsl(200deg, 72%, 60%) ,hsl(200deg, 72%,55%) 95% );
+        background: linear-gradient(to left, hsl(30deg, 90%, 60%) ,hsl(20deg, 95%,55%) 95% );
+        /*background: linear-gradient(to left, hsl(200deg, 72%, 60%) ,hsl(200deg, 72%,55%) 95% );*/
         color: #ffffffee;
     }
     .view-container {
@@ -182,7 +184,7 @@ h1,h2,h3,h4,h5,h6 {
 .point-item {
     /*font-family: 'Kiwi Maru',"ヒラギノ丸ゴ ProN W4","メイリオ",sans-serif !important;
     letter-spacing: .15rem !important;*/
-    margin-bottom: .5em;
+    margin-bottom: 1.2em;
 }
 .nowrap {
     display: inline-block;
@@ -221,7 +223,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .check-svg{
-    fill: hsl(25deg, 76%, 60%);
+    fill: hsl(25deg, 76%, 30%);
     /*fill: #ffffff;*/
     width: 2em;
     height: 2em;
@@ -237,7 +239,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media only screen and (min-width: 768px) {
     body { 
-        background: hsl(25deg, 100%, 96%);
+        background: hsl(25deg, 100%, 98%);
     }
     .title {
         margin-bottom: 0;
@@ -306,8 +308,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .image {
     border-radius: 10px;
-    width: 85%;
-    margin: 1rem auto;
+    width: 100%;
+    margin: 1rem 0;
     height: auto;
 }
 .card-container {
@@ -419,8 +421,8 @@ h1,h2,h3,h4,h5,h6 {
     width: 2rem;
 }
 .card-box {
-    background: hsl(25deg, 100%,99%);
-    padding: 1em 1.5rem;
+    background: hsl(25deg, 100%,100%);
+    padding: 1em 2rem;
 }
 .person-box {
     padding: 1rem 5%;
@@ -505,7 +507,7 @@ ul {
 }
 .btn-twitter {
     text-align: center;
-    border: solid 3px hsl(200deg, 72%, 60%);
+    border: solid 3px hsl(25deg, 72%, 60%);
     background-color: hsl(25deg, 95%, 99%);
     /*box-shadow: 3px 3px 15px 1px #99999966;*/
     margin-top: .3rem;
@@ -514,7 +516,7 @@ ul {
 }
 .important {
     border-radius: 10px;
-    border: solid 5px rgb(247, 141, 65); 
+    border: solid 5px hsl(25deg,80%,50%); 
     padding: .5rem 1rem;
     text-align: justify;
     max-width: 90vw;
@@ -530,20 +532,28 @@ ul {
      align-items: center;
      height: 2rem;
      color: #ffffff;
-     background: rgb(247, 141, 65);
+     background: hsl(25deg,80%,50%);
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bolder;
  }
  .important > h3 {
      display: flex;
      gap: 1rem;
-     color: rgb(247, 141, 65);
+     color: hsl(25deg,80%,50%);
      align-items: center;
      margin-bottom: .2rem;
  }
- .important >  p > span {
-     background: linear-gradient(transparent 60%, hsl(25deg,100%,70%) 60%);
- }
  .contents-desc {
      text-align: justify;
+ }
+ .strong {
+     font-size: 150%;
+     display: inline-block;
+     padding: 0 .2rem;
+ }
+ .underline {
+    background: linear-gradient(transparent 60%, hsl(25deg,100%,70%) 60%);
+ }
+ .colored{
+    color: rgb(241, 103, 4)
  }
