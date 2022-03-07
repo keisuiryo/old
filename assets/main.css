@@ -18,7 +18,7 @@ img {
     display: block;
 }
 body {
-    font-family:  Arial,Helvetica,"游ゴシック体", YuGothic,"游ゴシック Medium","Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
+    font-family:  sans-serif;
     letter-spacing: .05rem !important;
     font-size: 16px;
     background: hsl(25deg, 100%, 100%);
