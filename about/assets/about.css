@@ -56,9 +56,9 @@
 }
 .quote-box {
     margin: 1rem 0;
-    background: linear-gradient(to left ,hsl(260deg,85%,90%),hsl(200deg,85%,90%)35%,hsl(150deg,85%,90%),hsl(60deg,90%,85%),hsl(30deg,90%,85%)65%,hsl(0deg,85%,90%));
+    background: linear-gradient(to left ,hsl(260deg,85%,90%),hsl(200deg,85%,90%) 35%,hsl(150deg,85%,90%),hsl(60deg,90%,85%),hsl(30deg,90%,85%) 65%,hsl(0deg,85%,90%));
     background: linear-gradient(to left, hsl(15deg,40%,92%),hsl(30deg, 40%,92%));
-    border-radius: 20px;
+    border-radius: 10px;
     padding:  1rem 5%;
 }
 .quote-title {
